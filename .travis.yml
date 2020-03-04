@@ -1,3 +1,4 @@
+dist: trusty
 language: python
 env:
     - PYTHON_VER=2.7
