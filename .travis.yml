@@ -20,6 +20,5 @@ install:
     - export COVERAGE_PROCESS_START=
     - deactivate
     - make build
-    - cat bin/test
 
-script: make test
+script: travis_wait 50 make test
